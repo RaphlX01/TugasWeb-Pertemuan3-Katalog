@@ -1,0 +1,13 @@
+// =========================================
+// VARIABEL
+// =========================================
+$warna-utama: #ef4444; // red-500
+
+// =========================================
+// JUDUL UTAMA - clamp() typography
+// =========================================
+.judul-utama {
+    // clamp(minimum, ideal, maximum)
+    font-size: clamp(1.75rem, 5vw, 3.5rem);
+    color: $warna-utama;
+}
